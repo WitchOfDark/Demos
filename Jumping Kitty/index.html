@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Jumping Kitty</title>
+	<link rel="stylesheet" href="./jump.css" type="text/css">
+
+	<script src="../ext/SeedRandom.js"></script>
+
+	<script src="./jsbox2d.min.js"></script>
+	<script src="./cat.js"></script>
+	<script src="./level.js"></script>
+	<script src="./game.js"></script>
+	<script src="./draw.js"></script>
+
+	<script>
+
+		function init() {
+			gameInit();
+		}
+
+		window.addEventListener("load", init, false);
+
+	</script>
+
+</head>
+
+<body>
+	<canvas id="main_screen" width="600" height="600"></canvas>
+
+</body>
+
+</html>
